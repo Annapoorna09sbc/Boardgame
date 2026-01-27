@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: annapoorna12345/shackimage:latest
+          image: annapoorna12345/boardgame27:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
